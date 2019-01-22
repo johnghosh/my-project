@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(./fonts/roboto/Roboto-Regular.ttf);
+}
+div {
+  font-family: RobotoRegular;
+}
+.base {
+  width: 100%;
+  height: auto;
+  background: #f5f7f8;
+}
+.dataHolder {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 20%;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.splitDataHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.WorkExperienceHolder {
+  width: 70%;
+  height: auto;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.cont1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  background: #fff;
+}
+.headingForLabel {
+  width: 100%;
+  height: auto;
+  color: #212121;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.workExpdata {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.educationHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  flex-direction: column;
+}
